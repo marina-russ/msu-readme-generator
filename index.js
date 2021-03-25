@@ -6,7 +6,7 @@ inquirer
     // GitHub username
     {
       type: 'input',
-      name: 'name-user',
+      name: 'user-name',
       message: 'Enter your GitHub username:',
         // validate that user entered in at least 4 characters (the minimum length for a github username)
         validate: function (answer) {
@@ -19,13 +19,13 @@ inquirer
     // User email address
     {
       type: 'input',
-      name: 'email-user',
+      name: 'user-email',
       message: 'Enter your email address:'
     },
     // Repository Name
     {
       type: 'input',
-      name: 'name-repo',
+      name: 'repo-name',
       message: 'Enter the GitHub repository name:',
         // validate that user entered in 64 or less characters (64 is the maximum length allowed for a github repo name)
         validate: function (answer) {
@@ -64,9 +64,8 @@ inquirer
       type: 'list',
       name: 'project-license',
       message: `Choose your license for your project. If you don't have a preference, you can pick the MIT open-source license.`,
-      // https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository
-      choices: ['afl-3.0', 'apache-2.0', 'artistic-2.0', 'bsl-1.0', 'bsd-2-clause', 'bsd-3-clause', 'bsd-3-clause-clear', 'cc', 'cc0-1.0', 'cc-by-4.0', 'cc-by-sa-4.0', 'wtfpl', 'ecl-2.0', 'epl-1.0', 'epl-2.0', 'eupl-1.1', 'agpl-3.0', 'gpl', 'gpl-2.0', 'gpl-3.0', 'lgpl', 'lgpl-2.1', 'lgpl-3.0', 'isc', 'lppl-1.3c', 'ms-pl', 'mit', 'mpl-2.0', 'osl-3.0', 'postgresql', 'ofl-1.1', 'ncsa', 'unlicense', 'zlib']
-
+      // options taken from choosealicense.com
+      choices: ['Academic 3.0', 'Apache 2.0', 'GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla PL 2.0','ISC', 'MIT', 'Unlicense']
     },
     // Project Contributions
     {
