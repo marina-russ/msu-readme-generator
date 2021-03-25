@@ -11,7 +11,7 @@ Use the command line to automatically generate a pre-formatted README.md file fo
 - [Questions](#questions)
 - [License](#license)
 
-## 🔍 User Story <a name="userstory"></a>
+## 👩‍💼 User Story <a name="userstory"></a>
 > **AS A** developer <br>
 > **I WANT** a README generator <br>
 > **SO THAT** I can quickly create a professional README for a new project
