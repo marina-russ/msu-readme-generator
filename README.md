@@ -1,23 +1,37 @@
 # :sparkles: README.md Generator
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-Use the command line to automatically generate a pre-formatted README.md file!
+Use the command line to automatically generate a pre-formatted README.md file for your project!
 
 ## 📖 Table of Contents
-- [Description](#description)
+- [User Story](#userstory)
 - [Installation](#install)
 - [Usage](#usage)
+- [Result](#result)
 - [Questions](#questions)
 - [License](#license)
 
-## 🔍 Description <a name="description"></a>
-Creates a README.md file for your project
+## 🔍 User Story <a name="userstory"></a>
+> **AS A** developer <br>
+> **I WANT** a README generator <br>
+> **SO THAT** I can quickly create a professional README for a new project
 
 ## 💾 Installation <a name="install"></a>
-<code> npm install readme-generator</code>
+
+To install README.md Generator:
+```
+npm init -y
+npm install index.js
+```
 
 ## 💻 Usage <a name="usage"></a>
-Open the command line and navigate to this project's file folder. /nIn the command line, enter <code>node index.js</code> to run the application./n Answer all questions in the command line, and then a file will be created.
+Here is a video walkthrough of a user running the README.md Generator:<br>
+[video]
+
+## ⭐ Result <a name="result"></a>
+
+Your README.md file will look something like this:<br>
+[img]
 
 ## 💬 Questions <a name="questions"></a>
 Feel free to reach out with any questions!
