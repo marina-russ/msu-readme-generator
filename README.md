@@ -25,8 +25,9 @@ npm install index.js
 ```
 
 ## 💻 Usage <a name="usage"></a>
-Here is a video walkthrough of a user running the README.md Generator:<br>
-[video]
+Here is a link to a video walkthrough of a user running the README.md Generator:<br>
+
+[video](https://drive.google.com/file/d/12Hylv_QvhPOiY98XzN5jWB31yBw16I4X/view?usp=sharing)
 
 ## ⭐ Result <a name="result"></a>
 
