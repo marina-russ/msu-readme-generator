@@ -31,7 +31,7 @@ Here is a video walkthrough of a user running the README.md Generator:<br>
 ## ⭐ Result <a name="result"></a>
 
 Your README.md file will look something like this:<br>
-[img]
+![img](assets/screenshot-readme.png)
 
 ## 💬 Questions <a name="questions"></a>
 Feel free to reach out with any questions!
